@@ -11,7 +11,11 @@
 
     <h2>Halo, {{ $name }}!</h2>
 
+    <p>Status: {{ $status }}</p>
+
     <p>Program Studi: {{ $major }}</p>
+
+    <p>University: {{ $university }}</p>
 
     <nav>
         <a href="/">Home</a> |

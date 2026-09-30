@@ -8,8 +8,11 @@ class PageController extends Controller
     {
         $data = [
             'title' => 'Home',
-            'name' => 'Nama Mahasiswa',
-            'major' => 'Program Studi'
+            'name' => 'Aulia Pebriani',
+            'status'=> 'Mahasiswa',
+            'major' => 'Ilmu Komputer',
+            'university'=> 'Universitas Negeri Medan'
+            
         ];
 
         return view('home', $data);
@@ -19,7 +22,8 @@ class PageController extends Controller
     {
         $data = [
             'title' => 'About',
-            'description' => 'Halaman tentang mahasiswa dan informasi singkat mengenai diri saya.'
+            'description' => 'Hai, saya Aulia Pebriani mahasiswi di Universitas Negeri Medan. 
+            Menerima pekerjaan dengan gaji dua digit tapi tidak membuat stres, dan yang paling penting libur sabtu minggu.'
         ];
 
         return view('about', $data);
@@ -29,7 +33,8 @@ class PageController extends Controller
     {
         $data = [
             'title' => 'Contact',
-            'email' => 'email@example.com'
+            'email' => 'aulia@gmail.com',
+            'instagram'=> 'aulia_pbrni'
         ];
 
         return view('contact', $data);

@@ -1,6 +1,6 @@
 # TugasWeb-P9-LaravelSetup
 
-Project ini dibuat untuk memenuhi tugas Pemrograman Web menggunakan Laravel.
+Project ini dibuat untuk memahami tugas Pemrograman WEb menggunakan Laravel.
 
 ## Teknologi
 
